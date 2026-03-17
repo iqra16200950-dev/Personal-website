@@ -22,9 +22,8 @@ This project may contain:
 excessive personality
 unnecessary dramatics
 and design decisions that felt right in the moment
+Proceed accordingly.
 
 it was such a fun project for a noob like me cus it was just built with HTML and CSS and yes even thought it is basic i had LEAR A LOT <3
 Feel free to explore the site, judge silently, or be impressed (preferred).
 Thank you for visiting 💖
-
-Proceed accordingly.
