@@ -1,15 +1,145 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="style.css"> 
-    </head>
-        <title>HI!-Iqra</title>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+       <title>Iqra portfolio</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css">
+        <link rel="icon" type="image/x-icon" href="./cloud.jpg">
+     </head>
         <body>
-            <h1>WELCOME!</h1>
-            <h3>My name is Iqra fathima</h3>
-            <h5> GET TO KNOW ME</h5>
-            <p>HI!, im Iqra Fathima ,<br> a 14 yr old who is passionate about a lott of things<br>I have a bunch of hobbies , most of which are pretty cozy , some are intense and some are ...well..unordinary, i would say.My favorite thinges to do as of now are crocheting,Painting,reading,Muning and my latest love -Essay/writing .<br>
-        I have been extremely fortunate to have won a commendation and a 850$ scholarship in the John Locke Essay competition 2025 in the category of psychology.<br> I had lived in Dubai for around 9 years with my family and was born in saudi ,however , my parents are from india . In april 2024 , we relocated back to india, though it is a beautiful country ,as someone who lived abroad ,i faced a lot of challenges,the one thing that heped me throughout this was writing essays and reading my comfort books.When i wrote for the competition , it was just to keep me occupied , i didnt realy expect anything from it either. But honestly one of my best experiances and though it got stressful as the deadline appoached , it was worth every single minute.And this is when my love for writing bloomed fully </p> 
-        <p>Another one of my more technical hobbies is MUNing.For anyone who doesnt know, MUN(model united nationa) is a simulation of a un body/commitee.In a mun you'll be assigned a portfolio (country, person etc) and youwoukd represent thoughts as the country on the basis of the given agenda.I love debate , so for me mun is really fun, my favourite committee to represent is probably UNGA or UNSC.To all those reading this , try mun , it may be a bit confusing but it is soooo fun (especilally if u have crisis,press conferences etc).</p>
-        <H6> ABOUT ME</H6>
-        <p> I have been a person with very high goals in life lol. For me , my dream is to study medical sciences and somehow use my career in the feild of international relations i guess . For me ,helping people in any way that i can has been my number 1 priority and it will always be .I enjoy medical sciences a lot cus im a science geek ,not only that but it is a crucial part of the humanity that is prevalent in our societies today. Doctors,nurses,and anyone who takes a small part in this field has probably helped to save over a 1000 lifes . And that is why i wanna be a part of somethig that truly helps.</p><p>thats it i guess, bye bye fellow humans </p><img src="https://i.pinimg.com/236x/67/5f/19/675f193245a10299f284edaeb114480a.jpg">
-        </html>
+          <nav>
+            <div class="nav-container">
+               <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                  <span>Iqra</span>
+               </div>
+               <div class="links">
+                  <div class="link" data-aos-duration="1000" data-aos-delay="100"><a href="#home" data-section="home">Home</a></div>
+                  <div class="link" data-aos-duration="1000" data-aos-delay="200"><a href="#about" data-section="about">About</a></div>
+                  <div class="link" data-aos-duration="1000" data-aos-delay="300"><a href="#skills" data-section="skills">Skills</a></div>
+                  <div class="link" data-aos-duration="1000" data-aos-delay="300"><a href="#hobbies" data-section="hobbies">Hobbies</a></div>
+                  <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact" data-section="contact">Contact me</a></div>  
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+               <div class= "links">
+                  <a href="#home" data-section="home">Home</a>
+                  <a href="#about" data-section="about">About</a>
+                  <a href="#skills" data-section="skills">Skills</a>
+                  <a href="#hobbies" data-section="hobbies">Hobbies</a>
+                  <a href="#contact" data-section="contact">Contact me</a>
+                   <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+               </div>
+        </div>
+    </nav>
+        <section id="home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="main.png" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hi!, I'm <span>Iqra</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">I’m a student(14 yr) artist who enjoys creating visual identities for projects and communities around me. I’ve designed logos for my reading club and its podcast, my school’s mental wellbeing initiative, and a Student Council campaign poster. My work focuses on turning simple ideas into clean, meaningful designs that represent the spirit of the people and projects behind them.</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="https://github.com/iqra16200950-dev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <a class="download-btn" href="work.pdf" download>Download Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tabs" class="info-tabs" style="display: none;">
+  <div id="about" class="info-section">
+    <h2>About</h2>
+    <p>I’m a 14-year-old student and artist who enjoys creating visual identities. I’ve been passionate about art since kindergarten, and that passion has stayed with me throughout my life.<br><br>As for my personal story-there’s a lot to unpack, so let me begin.<br><br>
+
+I’m Iqra (obviously, lol). I was born prematurely on 29th December 2011 in the beautiful lands of Saudi Arabia. Culturally, I’m Indian—my roots and ancestry are firmly tied there,but personally, my identity feels a little more complicated… maybe even a bit confusing.
+
+After my birth, I lived in Saudi Arabia for a while before moving to India for a year of kindergarten. And then suddenly—BOOM—I was in the UAE. Living in Dubai for around nine years shaped me deeply; it raised my standards, broadened my perspective, and played a huge role in who I am today. I studied in the same school for those nine years, and it truly became my second home. It’s where I grew : not just academically, but as a person.<br><br>
+
+Then came another BOOM,I had to move back to India. Even though I am Indian, it’s a bit embarrassing to admit that I was upset. Leaving meant leaving everything:my home, my school, my life there.And that wasn’t easy at all.<br><br>
+
+There were definitely ups and downs, but over time, I’ve found my footing again. And now, I’ve started to find happiness here too.</p>
+  </div>
+
+  <div id="skills" class="info-section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Logo Design</li>
+      <li>Illustration</li>
+      <li>Typography</li>
+      <li>Calligraphy</li>
+      <li>Public speaker</li>
+      <li>Essay writer</li>
+
+    </ul>
+  </div>
+
+  <div id="hobbies" class="info-section">
+    <h2>Hobbies</h2>
+    <p>My hobbies are kind of a mix of creativity, chaos, and me trying to do everything at once,but like, in a fun way. <br><br>I’m really into art, especially logo design and graphic design, because I love turning random ideas into something that actually looks clean and meaningful and also slays.<br><br> At the same time, I enjoy essay writing since it lets me go on long thought tangents and put my opinions into words,and it’s something I’ve been recognized for too, with a commendation in the John Locke Essay Writing Competition (which still feels a bit unreal, honestly).<br><br> I’m also super involved in MUN-both as a delegate and a chair,which basically means I like arguing professionally, researching global issues, and pretending I have my life together in formal speeches. Debate and public speaking are a big part of that too, and even though they can be intense, I genuinely enjoy the adrenaline and the confidence boost. I’ve also managed to maintain a 100% placement record in MUNs, which is something I’m really proud of.<br><br> Outside of that, I’ve been learning Arabic for around 8 years, which is both challenging and really cool, and I actually like math (yes, voluntarily), especially the problem-solving part of it.<br><br>I also have a strong connection with reading, which has grown into something much bigger over time. Back in 5th grade, me and my friend group of 6 collaborated with my school librarian and principal to create our school reading club, the Royal Readers Squad (RRS). It started as a simple idea with only 25 students, but turned into a space where,now, around 130 students could come together, share books, and build a genuine love for reading. To take it a step further, we also launched a podcast called Literary Lounge, where we talk about stories, characters, and different perspectives, making reading feel more interactive and engaging.<br><br> Overall, my hobbies are a mix of creative expression, academic chaos, and a little bit of 'let me just try everything and see what sticks...' and somehow it all works together lol.</p>
+  </div>
+
+  <div id="contact" class="info-section">
+    <h2>Contact</h2>
+    <p>You can reach me at <a href="mailto:Iqra16200950@gmail.com">Iqra16200950@gmail.com</a> or find me on slack !.</p>
+  </div>
+</section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+
+            
+  const sections = document.querySelectorAll(".info-section");
+  const homeSection = document.getElementById("home");
+  const tabsSection = document.getElementById("tabs");
+  const navLinks = document.querySelectorAll('a[data-section]');
+
+  function showSection(id) {
+    const showHome = id === "home";
+
+    if (homeSection) homeSection.style.display = showHome ? "block" : "none";
+    if (tabsSection) tabsSection.style.display = showHome ? "none" : "block";
+
+    sections.forEach(sec => {
+      sec.classList.toggle("active", sec.id === id);
+    });
+  }
+
+  function closeDropdown() {
+    const dropdown = document.querySelector(".dropdown");
+    if (dropdown) dropdown.style.transform = "translateY(-500px)";
+  }
+
+  navLinks.forEach(link => {
+    const target = link.dataset.section;
+    if (!target) return;
+
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      showSection(target);
+      closeDropdown();
+      history.replaceState(null, "", `#${target}`);
+    });
+  });
+  //default to home
+  const initial = window.location.hash.substring(1) || "home";
+  showSection(initial);
+        </script>
+</body>
+</html>
